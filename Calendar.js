@@ -62,13 +62,13 @@ Calendar.prototype = {
   /* CURRENT VERSION */
   version:2.0,
 
-  /* LANGUAGE CONTENT */
+/* LANGUAGE CONTENT */
   LangData:{
    months:
     {
       english:["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
-      francais:["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre", "octobre", "novembre", "décembre"],
-      deutsch:["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"],
+      francais:["janvier", "fï¿½vrier", "mars", "avril", "mai", "juin", "juillet", "aoï¿½t", "septembre", "octobre", "novembre", "dï¿½cembre"],
+      deutsch:["Januar", "Februar", "Mï¿½rz", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"],
       espanol:["Enero", "Febrero", "Marcha", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
     },
 
@@ -77,7 +77,7 @@ Calendar.prototype = {
       english:["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
       francais:["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"],
       deutsch:["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"],
-      espanol:["Domingo",  "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"]
+      espanol:["Domingo",  "Lunes", "Martes", "Miï¿½rcoles", "Jueves", "Viernes", "Sï¿½bado"]
     },
 
     _close:
